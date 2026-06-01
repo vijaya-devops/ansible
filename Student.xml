@@ -1,0 +1,12 @@
+<Student> 
+    <firstName> Rama </firstName>
+    <lastName> ravi </lastName>
+    <dob> 1909-98-08 </dob>
+    <mobile> 93730338938</mobile>
+<Adderess> 
+    <street> </street>
+    <adderessline1> </adderessline1>
+    <adderessline2> </adderessline2>
+    <city> hyd </city>
+</Adderess>
+</Student>

@@ -1,0 +1,13 @@
+- name : "ravi bhaskar"
+  dob : "1990-01-01"
+  mobile : 9238302922
+  aderesses :
+    - type : perm
+      street : 202
+      apartments: balaji
+      city : hyd
+
+    - type : temp
+      street : 202
+      apartments: balaji
+      city : hyd

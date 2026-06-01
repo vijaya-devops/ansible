@@ -1,0 +1,13 @@
+{
+    "firstName": "",
+    "lastName" : "",
+    "dob" : "",
+    "adderesses" :[
+        {
+            "type" : "perm",
+            "street": "",
+            "line1" : "",
+            "line2" : ""
+        }
+    ]
+}
