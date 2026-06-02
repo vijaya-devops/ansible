@@ -1,4 +1,4 @@
-- name :
+- name : demo on varialbes
   hosts : localhost
   connections : local # it a local connection
   vars :
