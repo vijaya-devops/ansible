@@ -1,5 +1,5 @@
 - name : install nginx
-  host : forntend
+  hosts : forntend
   become : yes
   tasks : 
     - name : 
