@@ -1,6 +1,6 @@
 - name : demo on debug
   hosts: forntend
   tasks:
-    -name : hello -world
-    debug : 
+    - name : hello -world
+      debug : 
    
