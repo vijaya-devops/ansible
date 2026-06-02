@@ -1,5 +1,6 @@
 - name : install nginx
   host : forntend
+  become : yes
   tasks : 
     - name : 
       ansible.builtin.package:
