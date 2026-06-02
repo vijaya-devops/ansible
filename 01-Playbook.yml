@@ -2,5 +2,5 @@
   hosts: forntend
   tasks:
     -name : hello -world
-     debug : 
+    debug : 
    
