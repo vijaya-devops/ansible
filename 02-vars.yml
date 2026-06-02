@@ -1,0 +1,10 @@
+- name :
+  hosts : localhost
+  connections : local # it a local connection
+  vars :
+    course : "Ansible"
+    trainer : "vijay"
+    duration : 150hrs
+  tasks :
+   - debug :
+      msg : "Hi i am learing {{course}} with {{trainer}}adnace course, {{duration}}" 
