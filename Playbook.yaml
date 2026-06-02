@@ -1,3 +1,5 @@
 - name : ping the server
   hosts : forntend # target server
   tasks : #collection, modules 
+   -name : #ping the server
+    ping : ansible.builtin.ping
