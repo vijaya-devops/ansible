@@ -1,13 +1,13 @@
 - name : install nginx
   hosts : forntend
   become : yes
-  tasks : 
-    - name : 
-      ansible.builtin.package:
-      name : nginx
-      state : present
-    - name : start nginx
-      service :
+  tasks: 
+  - name : 
+    ansible.builtin.package:
+        name : nginx
+        state : present
+  - name : start nginx
+    service :
       name : nginx
       state : started
       enabled : yes
