@@ -12,11 +12,12 @@
     more_details:
       months: "5"
       trainer: "siva"
-    tasks: 
+  tasks: 
     - name: print information
-      msg: |
-        name: {{course}}
-        duration: {{duration}}
-        is_it_live: {{is_live_session}}
-        topics: {{topics}}
-        more_details: {{more_details}}
+      debug:
+        msg: |
+          name: {{course}}
+          duration: {{duration}}
+          is_it_live: {{is_live_session}}
+          topics: {{topics}}
+          more_details: {{more_details}}
