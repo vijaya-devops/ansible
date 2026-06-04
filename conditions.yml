@@ -1,6 +1,6 @@
 - name: conditions in ansible
-  connections: local
   hosts: local
+  connection: local
   vars:
     live_sessions: 6
       
