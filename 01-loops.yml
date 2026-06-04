@@ -1,5 +1,5 @@
 - name: Loop packages
-  hosts: frontend
+  hosts: forntend
   become: yes
 
   tasks:
