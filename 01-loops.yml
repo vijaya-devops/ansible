@@ -1,13 +1,14 @@
-- name: loops package
-  hosts: forntend
-  becmode: yes
+- name: Loop packages
+  hosts: frontend
+  become: yes
+
   tasks:
-  - name: intall packages
-    package: 
-      name: "{{item}}"
-      state: present
-    loop:
-    - nginx
-    - mongodb-mongosh
-    - mqsql
-    - git
+    - name: Install packages
+      package:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - nginx
+        - mongodb-mongosh
+        - mysql
+        - git
