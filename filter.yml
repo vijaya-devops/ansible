@@ -43,3 +43,7 @@
     debug:
       msg: "{{full_Name | upper}}"
 
+  - name: Convert to Lower case
+    debug:
+      msg: "{{full_Name | lower}}"
+
