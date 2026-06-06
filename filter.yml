@@ -3,6 +3,10 @@
   connection: local
   vars:
     topics: Linux,Shell,Ansible
+    tagmap:
+     name: Ansible
+     project: roboshop
+     environment: dev
   tasks:
   - name: topics convert to list
     debug:
@@ -11,4 +15,8 @@
   - name: default values
     debug:
       msg: "Hi {{Greeting | default('Good Morning')}}"
+
+  - name: conver to list
+    debug:
+      msg: "{{tagmap | dict2items }}"
 
