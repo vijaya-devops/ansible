@@ -41,5 +41,5 @@
 
   - name: Convert to Upper case
     debug:
-      msg: "{{fullName | Upper}}"
+      msg: "{{fullName | upper}}"
 
