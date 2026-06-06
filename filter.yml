@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    topics: "Linux","Shell","Ansible"
+    topics: Linux,Shell,Ansible
   tasks:
   - name: topics convert to list
     debug:
