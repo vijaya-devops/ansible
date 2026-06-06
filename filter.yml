@@ -7,7 +7,7 @@
      name: Ansible
      project: roboshop
      environment: dev
-     fullName: Vijayabhaskar
+    full_Name: Vijayabhaskar
     taglist: [
      {
             "key": "name",
@@ -41,5 +41,5 @@
 
   - name: Convert to Upper case
     debug:
-      msg: "{{fullName | upper}}"
+      msg: "{{full_Name | upper}}"
 
