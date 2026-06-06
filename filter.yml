@@ -7,6 +7,7 @@
      name: Ansible
      project: roboshop
      environment: dev
+     fullName: Vijayabhaskar
     taglist: [
      {
             "key": "name",
@@ -34,7 +35,11 @@
     debug:
       msg: "{{tagmap | dict2items }}"
 
-  - name: conver to map
+  - name: convert to map
     debug:
       msg: "{{taglist | items2dict}}"
+
+  - name: Convert to Upper case
+    debug:
+      msg: "{{fullName | Upper}}"
 
