@@ -4,3 +4,9 @@
   tasks:
   - name: check roboshop user exit or not
     command: id roboshop
+    register: user_output
+    ignore_errors: true
+
+  - name: print user output 
+    debug:
+      msg: {{user_output}}
