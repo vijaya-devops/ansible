@@ -1,0 +1,6 @@
+- name: demo on shell commands
+  hosts: local
+  connection: local
+  tasks: 
+  - name: command test
+    command: cat /etc/password | grep
