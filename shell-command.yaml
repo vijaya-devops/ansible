@@ -4,4 +4,4 @@
   tasks: 
   - name: command test
     #command: cat /etc/password | grep
-    shell: cat /etc/password | grep
+    shell: cat /etc/passwd | grep
