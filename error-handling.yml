@@ -1,6 +1,7 @@
 - name: error handling
   hosts: local
   connection: local
+  become: yes
   tasks:
   - name: check roboshop user exit or not
     command: id roboshop
@@ -10,5 +11,9 @@
   - name: print user output 
     debug:
       msg: "{{user_output}}"
+
+  - name: create user
+    command: useradd roboshop
+    when: user_output.rc != 0
 
   
